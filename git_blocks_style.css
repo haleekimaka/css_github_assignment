@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Lucida Console", Monaco, monospace
+}
+
+.wrapper {
+    width: 970px;
+    background: #dddfd4;
+    padding: 10px;
+}
+
+#header {
+    height: 50px;
+    background: #12b1ad;
+    display: block;
+    padding: 10px;
+    margin: 5px 5px 15px 5px;
+}
+
+#header h1, p, img {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+#header h1 {
+    font-size: 30px;
+    margin: 5px 57px 5px 5px;
+}
+
+#header p {
+    text-decoration: underline;
+    font-size: 13px;
+    margin: 15px 0px 15px 10px;
+}
+
+#body {
+    height: 520px;
+    background: #fee498;
+    padding: 15px 0px 15px 15px;
+    margin: 5px;
+}
+
+#sidebar {
+    height: 500px;
+    width: 225px;
+    background: #0c4043;
+    padding: 15px 15px 5px 8px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+#sidebar p {
+    margin: 20px 5px;
+}
+
+#main {
+    height: 535px;
+    width: 660px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.row_of_3 {
+    height: 165px;
+    width: 163px;
+    background: #0c4043;
+    display: inline-block;
+    margin: 0px 15px 30px 15px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.row_of_2 {
+    height: 118px;
+    width: 275px;
+    background: #0c4043;
+    display: inline-block;
+    margin: 0px 15px 30px 15px;
+    padding: 10px;
+}
+
+.row_of_1 {
+    height: 117px;
+    width: auto;
+    background: #0c4043;
+    display: block;
+    margin: 0px 15px 20px 15px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+#main p {
+    margin: 15px 5px;
+
+}
+
+#footer {
+    height: 55px;
+    width: 949px;
+    background: #12b1ad;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+#footer p, a {
+    margin: 16px 0px;
+}
+
+p {
+    font-size: 13px;
+    line-height: 1.3;
+    color: white;
+}
+
+a {
+    font-size: 13px;
+    line-height: 1.3;
+
+}
+
+.black  {
+    color: black;
+}
+
+.white  {
+    color: white;
+}
+
+.teal {
+    color: #26c3b6;
+}
+
+.vcenter {
+    vertical-align: middle;
+}
